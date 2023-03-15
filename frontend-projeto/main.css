@@ -1,0 +1,226 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #696969;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos específicos */
+header {
+  background-color: #f8f8f8;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Alexandria', sans-serif;
+  font-size: 36px;
+  margin-right: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.brands-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brands-list li {
+  margin-right: 20px;
+}
+
+.destination-card {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.destination-card img {
+  margin-right: 20px;
+  max-width: 300px;
+}
+
+.destination-card h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.destination-card p {
+  margin-bottom: 20px;
+}
+
+.destination-card a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Estilos para a seção de contato */
+.contact {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+.contact h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.contact-methods h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-methods form input,
+.contact-methods form textarea {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+}
+
+.contact-methods form textarea {
+  resize: vertical;
+}
+
+.contact-methods form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.contact-methods form button:hover {
+  background-color: #666;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.contact-methods > div {
+  flex-basis: 50%;
+}
+
+.contact-methods form {
+  display: flex;
+  flex-direction: column;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.social-links li {
+  margin: 0 10px;
+}
+
+.social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #666;
+}
+
+.social-links img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
