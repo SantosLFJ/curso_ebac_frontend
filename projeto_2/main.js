@@ -15,11 +15,14 @@ formContato.addEventListener('submit', function(event) {
         atualizarTabelaContatos();
         inputNome.value = '';
         inputTelefone.value = '';
+        inputNome.focus();
+
       }
     } else {
       adicionarContato(nome, telefone);
       inputNome.value = '';
       inputTelefone.value = '';
+      inputNome.focus();
     }
   }
 });
